@@ -6,7 +6,7 @@
   justify-items: center;
   align-items: center;
   /* height: 105px; */
-  padding: 96px 24px 96px;
+  padding: 89px 24px 96px;
   font-size: 18px;
   font-weight: 400;
   margin-bottom: -5px;
@@ -216,8 +216,7 @@
 
 .about__logo {
   margin-top: 63px;
-  width: 148px;
-  height: 114px;
+  max-width: 148px;
   margin-left: 46px;
 }
 
