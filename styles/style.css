@@ -5,11 +5,10 @@
   grid-template-columns: 1fr 148px 1fr;
   justify-items: center;
   align-items: center;
-  /* height: 105px; */
-  padding: 89px 24px 99px;
+  padding: 93px 24px 83px;
   font-size: 18px;
   font-weight: 400;
-  margin-bottom: -5px;
+  margin-bottom: 8px;
 }
 
 .header__menu {
@@ -113,7 +112,7 @@
 }
 
 .cover__description-text {
-  padding: 0px 78px;
+  padding: 0px 78px 0 90px;
   font-weight: 400;
   line-height: 28px;
   font-size: 22px;
