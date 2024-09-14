@@ -4,5 +4,5 @@
 - HTML;
 - CSS.
 
-Ссылка на репозиторий:
+Ссылка на публичный репозиторий:
 https://github.com/Pavel-on-GH/ono-tebe-nado
