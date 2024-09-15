@@ -5,10 +5,10 @@
   grid-template-columns: 1fr 148px 1fr;
   justify-items: center;
   align-items: center;
-  padding: 93px 24px 83px;
+  padding: 90px 24px 85px;
   font-size: 18px;
   font-weight: 400;
-  margin-bottom: 8px;
+  margin-bottom: 7px;
 }
 
 .header__menu {
@@ -28,6 +28,7 @@
 .header__logo {
   width: 134px;
   height: 110px;
+  padding-bottom: 1px;
 }
 
 .header__contacts {
@@ -112,11 +113,11 @@
 }
 
 .cover__description-text {
-  padding: 0px 86px;
+  padding: 0px 80px;
   font-weight: 400;
   line-height: 28px;
   font-size: 22px;
-  word-spacing: 0.7em;
+  word-spacing: 0.81em;
 }
 
 .cover__description-btn {
@@ -130,7 +131,7 @@
   line-height: 25.83px;
 }
 
-/*  */
+/* Lots */
 
 .lots {
   padding: 0 24px;
@@ -231,7 +232,6 @@
   font-weight: 400;
   line-height: 24px;
   margin-top: 24px;
-  /* letter-spacing: 0.01m; */
 }
 
 .footer {
@@ -271,8 +271,4 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
-}
-
-.contact_italic {
-  font-style: italic;
 }
