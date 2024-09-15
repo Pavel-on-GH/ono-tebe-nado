@@ -111,23 +111,22 @@
 .cover__description {
   display: flex;
   align-items: center;
-  font-size: 22px;
   padding-right: 50px;
   padding-bottom: 50px;
 }
 
 .cover__description-text {
-  padding: 0px 77px;
+  padding: 0px 80px 0 78px;
   font-weight: 400;
   line-height: 28px;
   font-size: 22px;
-  word-spacing: 0.81em;
+  word-spacing: 0.75em;
 }
 
 .cover__description-btn {
   width: 256px;
   height: 51px;
-  margin-left: 5px;
+  margin-left: 9px;
   background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
