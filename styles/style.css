@@ -5,7 +5,7 @@
   grid-template-columns: 1fr 148px 1fr;
   justify-items: center;
   align-items: center;
-  padding: 90px 24px 80px;
+  padding: 90px 24px 81px;
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 7px;
@@ -60,7 +60,7 @@
   height: 100%;
 }
 
-/* Cover__title */
+/* Cover*/
 
 .cover__title {
   padding: 165px 50px 127px;
@@ -113,11 +113,11 @@
   align-items: center;
   font-size: 22px;
   padding-right: 50px;
-  padding-bottom: 49px;
+  padding-bottom: 50px;
 }
 
 .cover__description-text {
-  padding: 0px 80px;
+  padding: 0px 77px;
   font-weight: 400;
   line-height: 28px;
   font-size: 22px;
@@ -127,6 +127,7 @@
 .cover__description-btn {
   width: 256px;
   height: 51px;
+  margin-left: 5px;
   background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
