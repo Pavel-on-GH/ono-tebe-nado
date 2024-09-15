@@ -127,7 +127,6 @@
 .cover__description-btn {
   width: 256px;
   height: 51px;
-  /* padding-left: 9px; */
   background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
@@ -201,6 +200,8 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 23.48px;
+  text-decoration: none;
+  border-bottom: 1px #000 solid;
 }
 
 /* About */
@@ -257,6 +258,11 @@
   justify-self: center;
   line-height: 21.13px;
   text-align: center;
+}
+
+.footer__menu-underline {
+  text-decoration: none;
+  border-bottom: 1px #000 solid;
 }
 
 .footer__social-list {
