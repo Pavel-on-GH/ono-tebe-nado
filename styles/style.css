@@ -11,7 +11,7 @@
   margin-bottom: 7px;
 }
 
-.header__menu {
+.header__menu-list {
   display: flex;
   column-gap: 33.52px;
   list-style-type: circle;
@@ -42,6 +42,10 @@
   font-style: normal;
 }
 
+.contacts-item {
+  display: block;
+}
+
 .contacts_header {
   margin-left: 38px;
   justify-self: end;
@@ -63,6 +67,7 @@
 
 .overlay {
   position: absolute;
+  inset: 0;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 0;
   height: 100%;
@@ -162,6 +167,7 @@
   list-style-type: none;
   gap: 25px;
   color: #ffffff;
+  margin-bottom: 30px;
 }
 
 .lots__card-item-link {
@@ -169,13 +175,15 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 334px;
   min-height: 563px;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 30px;
 }
 
 .card-film {
@@ -202,19 +210,10 @@
 .card__description {
   position: relative;
   z-index: 1;
-  min-width: 254px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 0 40px 40px;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-}
-
-.card__description_film {
-  padding-top: 238px;
-}
-.card__description_picture {
-  padding-top: 90px;
 }
 
 .lots__info {
@@ -255,14 +254,16 @@
   font-size: 40px;
   font-weight: 700;
   line-height: 46.96px;
-  padding: 101px 0 76px;
+  padding: 101px 0 100px;
 }
 
 .about__info-text {
+  display: flex;
+  flex-direction: column;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  margin-top: 24px;
+  row-gap: 24px;
 }
 
 /* Footer */
